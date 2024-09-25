@@ -36,6 +36,8 @@ class Eventter {
             'supports' => ['title', 'editor', 'thumbnail'],
             'show_ui' => true,
             'show_in_menu' => true,
+            'graphql_single_name' => 'event',
+            'graphql_plural_name' => 'events',
         ]);
     }
 
