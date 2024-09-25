@@ -13,3 +13,10 @@ Now, access `localhost:8080` you only need to follow the wordpress installation 
 
 ### Observation!!!
 When asked for database host, insert `database-practice` instead of localhost!
+
+## Technical decisions
+### Docker
+I Thought I'd much easier to run the app on docker in order to avoid the pain of having to install all php dependencies and making sure that every version matches.
+
+### Plugin
+I decided to create a Eventter class to follow a OOP approach instead of the traditional procedural way.
